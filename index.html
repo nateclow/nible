@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nible | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">nible.ca</div>
+        <nav>
+            <a href="https://nateclow.ca">Main Site</a>
+        </nav>
+    </header>
+
+    <main class="portfolio-container">
+        
+        <input type="radio" id="tab-art" name="portfolio-tabs" checked>
+        <input type="radio" id="tab-writing" name="portfolio-tabs">
+        <input type="radio" id="tab-photos" name="portfolio-tabs">
+
+        <div class="tab-menu">
+            <label for="tab-art">Artwork</label>
+            <label for="tab-writing">Writing</label>
+            <label for="tab-photos">Photography</label>
+        </div>
+
+        <section class="content-section" id="art-content">
+            <div class="grid">
+                <div class="grid-item"><img src="images/art1.jpg" alt="Artwork Title 1"></div>
+                <div class="grid-item"><img src="images/art2.jpg" alt="Artwork Title 2"></div>
+            </div>
+        </section>
+
+        <section class="content-section" id="writing-content">
+            <div class="writing-list">
+                <article class="writing-item">
+                    <h2>Title of Your Piece</h2>
+                    <span class="date">July 2026</span>
+                    <p>This is where an abstract or short preview paragraph of your creative writing goes. You can link it out to a separate page or add full text blocks here...</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section" id="photos-content">
+            <div class="grid">
+                <div class="grid-item"><img src="images/photo1.jpg" alt="Photo Title 1"></div>
+                <div class="grid-item"><img src="images/photo2.jpg" alt="Photo Title 2"></div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
